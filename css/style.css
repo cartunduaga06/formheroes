@@ -88,10 +88,10 @@ container{
     background-color: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 20px;
-    width: 300px;
+    max-width: 300px;
     max-height: 610px;
-    border-top-left-radius:   20px;
-    border-top-right-radius: 20px ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     
 }
 
@@ -284,6 +284,77 @@ background-repeat: no-repeat;
 #button-entrar{
     width: 25vh;
 }
+
+.fichas-producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 20px;
+    width: 500px;
+    height: 500px;
+    border-radius: 45px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    font-family: Roboto;
+    font-style: italic;
+
+}
+
+.fichas-producto h2{
+    color: #2C0187;
+    font-style: normal;
+    margin-top: -20px;
+    text-decoration: underline;
+    }
+.fichas-producto span1{
+    color: #2C0187;
+}
+
+.fichas-producto p{
+    margin: 20px;
+}
+
+.fichas-producto img{
+    margin: 12px;
+
+}
+#personajeimg{
+    border-radius: 50%;
+    position: relative;
+    margin-top: -10px;
+    
+}
+
+#final-home{
+    background-color: #2C0187;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 45px 45px;
+
+}
+
+#final-home a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+
+}
+
+#heart{
+    display: block;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
 
 
 @media screen and (min-width: 768px ){
